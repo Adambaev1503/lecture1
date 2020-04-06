@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <title>My Web Page</title>
     <style media="screen">
-      ul {
-        color: red;
-      }
       .item {
-        Color: black;
+        Color: red;
+      }
+      ul > .item {
+        color: black;
       }
     </style>
   </head>
@@ -16,7 +16,7 @@
     <ol>
       <li class="item">list item one</li>
       <li class="item">list item two</li>
-      <ul class="item">
+      <ul class="">
         <li class="item">sublist item</li>
         <li class="item">another sublist item</li>
       </ul>
